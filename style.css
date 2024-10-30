@@ -1,0 +1,549 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Livvic", sans-serif;
+}
+body{
+    margin: 0 auto;
+}
+.header{
+    padding: 73px 0 0 0;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 517px;
+    background-color: #014E56;
+}
+.header-content{
+    color: white;
+    margin: 0 auto;
+    max-width: 1110px;
+    height: 48px;
+    background-color: #014E56;
+}
+.header-element{  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-element ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-element button{
+    width: 153px;
+    height: 48px;
+    color: white;
+    border-radius: 24px;
+    border: 2px solid white;
+    background-color: #014E56;
+}
+.group2{
+    display: none;
+}
+.header-end{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px auto 0 auto;
+    max-width: 1110px;
+    height: 156px;
+}
+.header-end_img{
+    width: 350px;
+    height: 100px;
+    align-content: center;
+}
+.header-end_p{
+    max-width: 730px;
+    height: 156px;
+}
+.header-end_p div{
+    width: 100%;
+    height: 100%;
+    align-content: end;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: white;
+}
+.header-end_p div p{
+    max-width: 730px;
+    height: 112px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: white;
+}
+.section{
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 1002px;
+    background-color: #004047;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.section-content{
+    margin: 0 auto;
+    max-width: 1110px;
+}
+.section-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.h1{
+    margin: 71px;
+    max-width: 920px;
+    height: 52.12px;
+}
+.h1 h1{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    height: auto;
+}
+.card{
+    width: 350px;
+    height: 274.73px;
+    background-color: #012F34;
+    align-content: center;
+}
+.card-element{
+    width: 350px;
+    height: 305.13px;
+}
+.card-box{
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 302px;
+    height: 189px;
+}
+.card-box_img{
+    margin: 0 auto 20.29px auto; 
+    display: flex;
+    justify-content: center;
+
+}
+.card-mini_box{
+    align-content: center;
+    margin: 0 auto;
+    width: 302px;
+    height: 60.71px;
+}
+.card-mini_box-h1 h1{
+    text-align: center;
+    width: 302px;
+    height: 28px;
+}
+.card-mini_box-p p{
+    text-align: center;
+    width: 302px;
+    height: 25px;
+}
+
+.card-box_button button{
+    position: relative;
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    background-color: #F67E7E;
+    border: none;
+
+}
+.card-box_button button img{
+    margin: 0 auto;
+}
+
+.section1-end{
+    background-color: #012F34;
+    max-width: 1440px;
+    height: 355px;
+}
+.section1-end_h1{
+    max-width: 920px;
+    height: 39.07px;
+    margin: 113.94px auto 57px auto;
+    display: flex;
+    justify-content: center;
+}
+.section1-end_h1 h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+.section1-end1{
+    margin: 0 auto;
+    max-width: 1110px;
+    height: 36.62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1-end1 ul{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#one{
+    width: 165px;
+    height: 22.79px;
+}
+#two{
+    width: 184px;
+    height: 18.72px;
+}
+#tree{
+    width: 180px; 
+    height: 22.79px;
+}
+#four{
+    width: 165px; 
+    height: 22.79px;
+}
+#five{
+    width: 98px; 
+    height: 36.62px;
+}
+.section3{
+    margin: 0 auto;
+    align-content: center;
+    max-width: 1440px;
+    height: 200px;
+    background-color: #F67E7E;
+}
+.section3-content{
+    margin: 0 auto;
+    align-content: center;
+    max-width: 917px;
+    height: 48px;
+}
+.section3-element{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section3-element h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.section3-element button{
+    width: 153px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid black;
+    background: none;
+    color: black;
+    border-radius: 25px;
+}
+.footer{
+    margin: 0 auto;
+    align-content: center;
+    max-width: 1440px;
+    height: 84px;
+    background-color: #002529;
+}
+.footer-content{
+    margin: 0 auto;
+    max-width: 1110px;
+    height: auto;
+}
+.footer-element{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-element ul{
+    width: 104px;
+    height: 24px;
+    justify-content: space-between;
+    align-content: center;
+    display: flex;
+}
+.footer-element h1{
+    color: white;
+}
+
+@media (max-width: 1080px) {
+    .header{
+        padding: 64px 0 0 0;
+        max-width: 768px;
+        height: 556px;
+    }
+    .header-content{
+        max-width: 689px;
+        height: 48px;
+    }
+    .header-end{
+        max-width: 683PX;
+        height: 220px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .h1 h1{
+        margin: 0 auto;
+        font-size: 32px;
+        font-weight: 700;
+        max-width: 445px;
+        height: 32px;
+    }
+    .header-end{
+        margin: 60px auto 0 auto;
+    }
+    .header-end_img{
+        width: 683px;
+        height: 56px;
+    }
+    .header-end_p div p{
+        font-size: 15px;
+        max-width: 457px;
+        height: 140px;
+    }
+    .header-content{
+        max-width: 689px;
+        height: 48px;
+    }
+    .section1-end{
+        max-width: 768px;
+        height: 308px;
+        background-color: #004047;
+    }
+
+    .section{
+        max-width: 768px;
+        height: 1219px;
+    }
+    .cards{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 11px;
+    }
+    .card-element{
+        width: 281px;
+        height: 281px;
+    }
+    .card{
+        width: 281px;
+        height: 253px;
+    }
+    .card-box{
+        margin: 0 auto;
+        width: 100%;
+    }
+    #one{
+        width: 103px;
+        height: 17px;
+    }
+    #two{
+        width: 114px;
+        height: 14px;
+    }
+    #tree{
+        width: 112px;
+        height: 17px;
+    }
+    #four{
+        width: 103px;
+        height: 17px;
+    }
+    #five{
+        width:61px;
+        height: 28px;
+    }
+    .section1-end1{
+        max-width: 689px;
+        height: 28px;
+    }
+    .section3{
+        max-width: 768px;
+        height: 200px;
+    }
+    .section3-content{
+        max-width: 573px;
+        height: 48px;
+    }
+    .section3-element h1{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .section3-element button{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .footer{
+        max-width: 768px;
+        height: 84px;
+    }
+    .footer-content{
+        max-width: 689px;
+    }
+    .footer-element{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-element ul{
+        width: 104px;
+        height: 24px;
+        justify-content: space-between;
+        align-content: center;
+        display: flex;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .header{
+        padding: 48px 0 0 0;
+        width: 375px;
+        height: 520px;
+    }
+    .header-content{
+        width: 327px;
+        height: 32px;
+    }
+    .header ul{
+        display: none;
+    }
+    .group2{
+        display: inline;
+    }
+    .header-end{
+        width: 327px;
+        height: 252px;
+    }
+    .h1{
+        margin: 88px auto 48px 0;
+        width: 100%;
+        
+    }
+    .h1 h1{
+        margin: 0 auto;
+        width: 327px;
+        height: 32px;
+        font-size: 32px;
+    }
+    .header-end_p div{
+        align-content: normal;
+    }
+    .header-end p{
+        font-size: 15px;
+        max-width: 327px;
+        height: 196px;
+    }
+
+    .section{
+        width: 375px;
+        height: 1689px;
+    }
+    .cards{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+    .card-element{
+        width: 327px;
+        height: 281px;
+    }
+    .card{
+        width: 327px;
+        height: 253px;
+    }
+    .section1-end{
+        max-width: 375px;
+        height: 517.68px;
+        background-color: #012F34;
+    }
+    .section1-end_h1{
+        margin: 72.08px auto 52.42px auto;
+    }
+    .section1-end_h1 h1{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .section1-end1{
+        width: 162.21px;
+        height: 298.88px;
+    }
+    .section1-end1 ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+
+    }
+    .section3{
+        max-width: 375px;
+        height: 302px;
+    }
+    .section3-content{
+        max-width: 327px;
+        height: 136px;
+    }
+    .section3-element{
+        text-align: center;
+        gap: 33px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .section3-element h1{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .section3-element button{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .footer{
+        margin: 0 auto;
+        max-width: 375px;
+        height: 216px;
+    }
+    .footer-content{
+        margin: 0 auto;
+        max-width: 327px;
+        height: auto;
+    }
+    .footer-element{
+        margin: 0 auto;
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-element ul{
+        width: 104px;
+        height: 24px;
+        justify-content: space-between;
+        align-content: center;
+        display: flex;
+    }
+}
